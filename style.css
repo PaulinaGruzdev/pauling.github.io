@@ -1,0 +1,86 @@
+p{
+    font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.projects {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+
+.projects div {
+  margin: 25px;
+  flex-basis: -1%;
+  flex-grow: 1;
+}
+
+.big {
+  flex-grow: 2 !important;
+}
+
+img {
+  width: 100%;
+  border: 1px solid black;
+}
+body {
+  background-image: url(https://blog.itrip.net/wp-content/uploads/2012/10/zuma-beach-malibu-itrip-vacations.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  color: white;
+}
+
+h1 {
+  padding: 32px;
+}
+body {
+  text-align: center;
+}
+iframe {
+  padding: 25px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 16px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 16px;
+  font-size: 80px;
+  color: white;
+  background-image: url(https://i.postimg.cc/pdRZsVsq/iu.jpg);
+  background-postion: center;
+}
+
+button:active + div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F11PMIEfajGXhGE%2Fgiphy.gif&f=1);
+  background-size: cover;
+  background-position: center;
+}

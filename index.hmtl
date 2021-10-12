@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> First webpage</title>    
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+<h1> My Paradise </h1>
+<div class='projects'>
+  <div>
+    <img src="https://i.postimg.cc/rz283vXq/8-Bitpj2.png" alt="">
+ 
+</div>
+
+<div class='big'>
+    <img src="https://i.postimg.cc/FKCk8sPm/Hase4.jpg" alt="">
+  </div>
+  
+  <div>
+    <img src="https://i.postimg.cc/V63rsZQV/owlpost.jpg" alt="">
+  </div>
+  </div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w0VYWy5c1RQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<p> (not my video)
+</div>
+
+
+<div class='container'>
+  <button>How does a skeleton feel inside?</button>
+  <div></div>
+</div>
+
+
+
+</body>
+</html>
